@@ -12,11 +12,11 @@ GameObject:
   - component: {fileID: 3284653572559236397}
   - component: {fileID: 2604991741277987449}
   - component: {fileID: 6005781607375714510}
-  - component: {fileID: 3672225561073883978}
   - component: {fileID: -132784862469027199}
+  - component: {fileID: 653294775538660618}
   m_Layer: 0
   m_Name: Bala
-  m_TagString: Untagged
+  m_TagString: Bala
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -97,18 +97,6 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &3672225561073883978
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2173083832601039187}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7efccc1af891c9d469875ef7916a3323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!54 &-132784862469027199
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -125,3 +113,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &653294775538660618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2173083832601039187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1af36531fce3894bb6c145293494cc0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeToDestroy: 7

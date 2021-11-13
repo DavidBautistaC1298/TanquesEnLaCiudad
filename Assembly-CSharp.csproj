@@ -55,6 +55,8 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\MovimientoTanque.cs" />
     <Compile Include="Assets\Scripts\Hitbala.cs" />
+    <Compile Include="Assets\Scripts\DestruirBala.cs" />
+    <Compile Include="Assets\Scripts\Follow.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
