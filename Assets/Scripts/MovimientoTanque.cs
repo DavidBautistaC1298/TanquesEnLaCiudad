@@ -5,7 +5,7 @@ using UnityEngine;
 public class MovimientoTanque : MonoBehaviour
 {
 
-    float speed = 5;
+    float speed = 5f;
     public Transform gunpoint;
     public Rigidbody bala;
     public int shootforce = 50;

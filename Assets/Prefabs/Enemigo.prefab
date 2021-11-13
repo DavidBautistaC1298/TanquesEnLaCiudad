@@ -230,6 +230,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objetivo: {fileID: 7509566413287199533, guid: 66d1c87ae099778468745ba645e26067, type: 3}
+  speed: 50
 --- !u!54 &-1582181184165711085
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -257,8 +258,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 282.68726, y: 184.34818, z: 578.61346}
-  m_Center: {x: -3.6627982, y: 91.67404, z: -11.9800625}
+  m_Size: {x: 282.68726, y: 335.85886, z: 578.61346}
+  m_Center: {x: -3.6627982, y: 167.42938, z: -11.9800625}
 --- !u!1 &3002018292164121600
 GameObject:
   m_ObjectHideFlags: 0

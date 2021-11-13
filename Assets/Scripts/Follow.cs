@@ -5,7 +5,7 @@ using UnityEngine;
 public class Follow : MonoBehaviour
 {
     public Transform objetivo;
-    float speed = 5f;
+    public float speed = 5f;
     float rango = 2.0f;
 
     // Start is called before the first frame update
